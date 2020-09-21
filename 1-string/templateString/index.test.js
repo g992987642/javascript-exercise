@@ -7,5 +7,5 @@ test('通过学号输出考试成绩', () => {
     lastName: '刘'
   };
   const result = getScoreOutput(person);
-  expect(result).toBe('你好，刘明！你的考试成绩为60分');
+  expect(result).toBe('你好,刘明！你的考试成绩为60分');
 });
